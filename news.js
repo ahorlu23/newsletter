@@ -2,7 +2,7 @@ function submit() {
     const emailInput = document.getElementById('e-mail');
     const errorMessage = document.getElementById('error-m');
     const successContainer = document.querySelector('.success-main');
-    const firstContainer = document.querySelector('.first-container');
+    const firstContainer = document.querySelector('.main');
 
      // Regular expression for validating email
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
